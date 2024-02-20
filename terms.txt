@@ -1,0 +1,6 @@
+SUT: "System under test"
+
+1. Fakes: Generic term for a "stand-in" for a SUT dependency
+2. Spies: A stand-in or a "middle man" for an indirect output, "side effect", of a SUT
+3. Stubs: A test-specific stand-in for an indirect input, usually to simulate "hard-to-reach" contexts
+4. Dummy objects: A simple-to-construct standin (maybe even null) for an object required in a SUT's interface but not in its implementation
